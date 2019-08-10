@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.backgroundColor = UIColor.AppColours.moneyboxBlue
         self.window?.rootViewController = LoginVC()
         self.window?.makeKeyAndVisible()
+        
         return true
     }
 
