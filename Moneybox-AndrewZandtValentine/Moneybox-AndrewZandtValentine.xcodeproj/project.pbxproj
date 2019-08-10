@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4909212F22FF144400128E26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909212E22FF144400128E26 /* AppDelegate.swift */; };
-		4909213122FF144400128E26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909213022FF144400128E26 /* ViewController.swift */; };
-		4909213422FF144500128E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4909213222FF144500128E26 /* Main.storyboard */; };
+		4909213122FF144400128E26 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909213022FF144400128E26 /* LoginVC.swift */; };
 		4909213622FF144800128E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4909213522FF144800128E26 /* Assets.xcassets */; };
 		4909213922FF144800128E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4909213722FF144800128E26 /* LaunchScreen.storyboard */; };
 		4909214422FF144800128E26 /* Moneybox_AndrewZandtValentineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909214322FF144800128E26 /* Moneybox_AndrewZandtValentineTests.swift */; };
 		4909214F22FF144800128E26 /* Moneybox_AndrewZandtValentineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909214E22FF144800128E26 /* Moneybox_AndrewZandtValentineUITests.swift */; };
+		4909215F22FF157D00128E26 /* AppColours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909215E22FF157D00128E26 /* AppColours.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,7 @@
 /* Begin PBXFileReference section */
 		4909212B22FF144400128E26 /* Moneybox-AndrewZandtValentine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moneybox-AndrewZandtValentine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4909212E22FF144400128E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4909213022FF144400128E26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4909213322FF144500128E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4909213022FF144400128E26 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		4909213522FF144800128E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4909213822FF144800128E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4909213A22FF144800128E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		4909214A22FF144800128E26 /* Moneybox-AndrewZandtValentineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moneybox-AndrewZandtValentineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4909214E22FF144800128E26 /* Moneybox_AndrewZandtValentineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneybox_AndrewZandtValentineUITests.swift; sourceTree = "<group>"; };
 		4909215022FF144800128E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4909215E22FF157D00128E26 /* AppColours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColours.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +97,9 @@
 		4909212D22FF144400128E26 /* Moneybox-AndrewZandtValentine */ = {
 			isa = PBXGroup;
 			children = (
+				4909215D22FF156D00128E26 /* Helpers */,
+				4909215C22FF150800128E26 /* Login */,
 				4909212E22FF144400128E26 /* AppDelegate.swift */,
-				4909213022FF144400128E26 /* ViewController.swift */,
-				4909213222FF144500128E26 /* Main.storyboard */,
 				4909213522FF144800128E26 /* Assets.xcassets */,
 				4909213722FF144800128E26 /* LaunchScreen.storyboard */,
 				4909213A22FF144800128E26 /* Info.plist */,
@@ -123,6 +123,22 @@
 				4909215022FF144800128E26 /* Info.plist */,
 			);
 			path = "Moneybox-AndrewZandtValentineUITests";
+			sourceTree = "<group>";
+		};
+		4909215C22FF150800128E26 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4909213022FF144400128E26 /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4909215D22FF156D00128E26 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4909215E22FF157D00128E26 /* AppColours.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +247,6 @@
 			files = (
 				4909213922FF144800128E26 /* LaunchScreen.storyboard in Resources */,
 				4909213622FF144800128E26 /* Assets.xcassets in Resources */,
-				4909213422FF144500128E26 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4909213122FF144400128E26 /* ViewController.swift in Sources */,
+				4909213122FF144400128E26 /* LoginVC.swift in Sources */,
 				4909212F22FF144400128E26 /* AppDelegate.swift in Sources */,
+				4909215F22FF157D00128E26 /* AppColours.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +309,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4909213222FF144500128E26 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4909213322FF144500128E26 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4909213722FF144800128E26 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
