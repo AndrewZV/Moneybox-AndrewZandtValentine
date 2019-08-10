@@ -1,0 +1,6 @@
+framework module Pods_Moneybox_AndrewZandtValentineUITests {
+  umbrella header "Pods-Moneybox-AndrewZandtValentineUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

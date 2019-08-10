@@ -14,6 +14,9 @@
 		4909214422FF144800128E26 /* Moneybox_AndrewZandtValentineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909214322FF144800128E26 /* Moneybox_AndrewZandtValentineTests.swift */; };
 		4909214F22FF144800128E26 /* Moneybox_AndrewZandtValentineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909214E22FF144800128E26 /* Moneybox_AndrewZandtValentineUITests.swift */; };
 		4909215F22FF157D00128E26 /* AppColours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909215E22FF157D00128E26 /* AppColours.swift */; };
+		8976A89F042C00B1EC202D51 /* Pods_Moneybox_AndrewZandtValentineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BFF23F0E140769309DE97D0 /* Pods_Moneybox_AndrewZandtValentineTests.framework */; };
+		94BB4EE6B051DE31AA859F98 /* Pods_Moneybox_AndrewZandtValentineUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B185FEE803469F9F982AF1F4 /* Pods_Moneybox_AndrewZandtValentineUITests.framework */; };
+		A571E61E32DE227545565D08 /* Pods_Moneybox_AndrewZandtValentine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6545F72C8CB78711D1118B /* Pods_Moneybox_AndrewZandtValentine.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		078CFE36A89FBC9B4BC70801 /* Pods-Moneybox-AndrewZandtValentineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moneybox-AndrewZandtValentineTests.release.xcconfig"; path = "Target Support Files/Pods-Moneybox-AndrewZandtValentineTests/Pods-Moneybox-AndrewZandtValentineTests.release.xcconfig"; sourceTree = "<group>"; };
+		0BFF23F0E140769309DE97D0 /* Pods_Moneybox_AndrewZandtValentineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moneybox_AndrewZandtValentineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6874589EF5055124EB352A /* Pods-Moneybox-AndrewZandtValentineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moneybox-AndrewZandtValentineUITests.debug.xcconfig"; path = "Target Support Files/Pods-Moneybox-AndrewZandtValentineUITests/Pods-Moneybox-AndrewZandtValentineUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4909212B22FF144400128E26 /* Moneybox-AndrewZandtValentine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moneybox-AndrewZandtValentine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4909212E22FF144400128E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4909213022FF144400128E26 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		4909214E22FF144800128E26 /* Moneybox_AndrewZandtValentineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneybox_AndrewZandtValentineUITests.swift; sourceTree = "<group>"; };
 		4909215022FF144800128E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4909215E22FF157D00128E26 /* AppColours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColours.swift; sourceTree = "<group>"; };
+		779E4F5431E53BCB35586C9D /* Pods-Moneybox-AndrewZandtValentine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moneybox-AndrewZandtValentine.release.xcconfig"; path = "Target Support Files/Pods-Moneybox-AndrewZandtValentine/Pods-Moneybox-AndrewZandtValentine.release.xcconfig"; sourceTree = "<group>"; };
+		B185FEE803469F9F982AF1F4 /* Pods_Moneybox_AndrewZandtValentineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moneybox_AndrewZandtValentineUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB95FCA32EDE3FEF67AF758E /* Pods-Moneybox-AndrewZandtValentineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moneybox-AndrewZandtValentineTests.debug.xcconfig"; path = "Target Support Files/Pods-Moneybox-AndrewZandtValentineTests/Pods-Moneybox-AndrewZandtValentineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD63E62A71ECA29A1F573649 /* Pods-Moneybox-AndrewZandtValentineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moneybox-AndrewZandtValentineUITests.release.xcconfig"; path = "Target Support Files/Pods-Moneybox-AndrewZandtValentineUITests/Pods-Moneybox-AndrewZandtValentineUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD6545F72C8CB78711D1118B /* Pods_Moneybox_AndrewZandtValentine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moneybox_AndrewZandtValentine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0EC400A9668E43A1B57EBD /* Pods-Moneybox-AndrewZandtValentine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moneybox-AndrewZandtValentine.debug.xcconfig"; path = "Target Support Files/Pods-Moneybox-AndrewZandtValentine/Pods-Moneybox-AndrewZandtValentine.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A571E61E32DE227545565D08 /* Pods_Moneybox_AndrewZandtValentine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8976A89F042C00B1EC202D51 /* Pods_Moneybox_AndrewZandtValentineTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BB4EE6B051DE31AA859F98 /* Pods_Moneybox_AndrewZandtValentineUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				4909214222FF144800128E26 /* Moneybox-AndrewZandtValentineTests */,
 				4909214D22FF144800128E26 /* Moneybox-AndrewZandtValentineUITests */,
 				4909212C22FF144400128E26 /* Products */,
+				82389EA10922A5395596318B /* Pods */,
+				FC7D6A77AE8B07D4B10178EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +158,30 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		82389EA10922A5395596318B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF0EC400A9668E43A1B57EBD /* Pods-Moneybox-AndrewZandtValentine.debug.xcconfig */,
+				779E4F5431E53BCB35586C9D /* Pods-Moneybox-AndrewZandtValentine.release.xcconfig */,
+				CB95FCA32EDE3FEF67AF758E /* Pods-Moneybox-AndrewZandtValentineTests.debug.xcconfig */,
+				078CFE36A89FBC9B4BC70801 /* Pods-Moneybox-AndrewZandtValentineTests.release.xcconfig */,
+				2C6874589EF5055124EB352A /* Pods-Moneybox-AndrewZandtValentineUITests.debug.xcconfig */,
+				DD63E62A71ECA29A1F573649 /* Pods-Moneybox-AndrewZandtValentineUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC7D6A77AE8B07D4B10178EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD6545F72C8CB78711D1118B /* Pods_Moneybox_AndrewZandtValentine.framework */,
+				0BFF23F0E140769309DE97D0 /* Pods_Moneybox_AndrewZandtValentineTests.framework */,
+				B185FEE803469F9F982AF1F4 /* Pods_Moneybox_AndrewZandtValentineUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4909215322FF144800128E26 /* Build configuration list for PBXNativeTarget "Moneybox-AndrewZandtValentine" */;
 			buildPhases = (
+				C51E2DA90F94AFF4EFC3E28A /* [CP] Check Pods Manifest.lock */,
 				4909212722FF144400128E26 /* Sources */,
 				4909212822FF144400128E26 /* Frameworks */,
 				4909212922FF144400128E26 /* Resources */,
+				17736CD9F763789CEAE7BEEF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4909215622FF144800128E26 /* Build configuration list for PBXNativeTarget "Moneybox-AndrewZandtValentineTests" */;
 			buildPhases = (
+				8CCF5E28176F5F83D5F4F447 /* [CP] Check Pods Manifest.lock */,
 				4909213B22FF144800128E26 /* Sources */,
 				4909213C22FF144800128E26 /* Frameworks */,
 				4909213D22FF144800128E26 /* Resources */,
@@ -183,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4909215922FF144800128E26 /* Build configuration list for PBXNativeTarget "Moneybox-AndrewZandtValentineUITests" */;
 			buildPhases = (
+				07AC8B5C70982548F0F94CAF /* [CP] Check Pods Manifest.lock */,
 				4909214622FF144800128E26 /* Sources */,
 				4909214722FF144800128E26 /* Frameworks */,
 				4909214822FF144800128E26 /* Resources */,
@@ -265,6 +310,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07AC8B5C70982548F0F94CAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moneybox-AndrewZandtValentineUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17736CD9F763789CEAE7BEEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moneybox-AndrewZandtValentine/Pods-Moneybox-AndrewZandtValentine-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moneybox-AndrewZandtValentine/Pods-Moneybox-AndrewZandtValentine-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Moneybox-AndrewZandtValentine/Pods-Moneybox-AndrewZandtValentine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CCF5E28176F5F83D5F4F447 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moneybox-AndrewZandtValentineTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C51E2DA90F94AFF4EFC3E28A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moneybox-AndrewZandtValentine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4909212722FF144400128E26 /* Sources */ = {
@@ -438,6 +569,7 @@
 		};
 		4909215422FF144800128E26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0EC400A9668E43A1B57EBD /* Pods-Moneybox-AndrewZandtValentine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +588,7 @@
 		};
 		4909215522FF144800128E26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 779E4F5431E53BCB35586C9D /* Pods-Moneybox-AndrewZandtValentine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -474,6 +607,7 @@
 		};
 		4909215722FF144800128E26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB95FCA32EDE3FEF67AF758E /* Pods-Moneybox-AndrewZandtValentineTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +629,7 @@
 		};
 		4909215822FF144800128E26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 078CFE36A89FBC9B4BC70801 /* Pods-Moneybox-AndrewZandtValentineTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +651,7 @@
 		};
 		4909215A22FF144800128E26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C6874589EF5055124EB352A /* Pods-Moneybox-AndrewZandtValentineUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +672,7 @@
 		};
 		4909215B22FF144800128E26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD63E62A71ECA29A1F573649 /* Pods-Moneybox-AndrewZandtValentineUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
