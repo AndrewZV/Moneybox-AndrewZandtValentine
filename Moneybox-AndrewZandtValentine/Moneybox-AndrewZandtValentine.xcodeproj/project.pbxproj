@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,10 @@
 		4909214422FF144800128E26 /* Moneybox_AndrewZandtValentineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909214322FF144800128E26 /* Moneybox_AndrewZandtValentineTests.swift */; };
 		4909214F22FF144800128E26 /* Moneybox_AndrewZandtValentineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909214E22FF144800128E26 /* Moneybox_AndrewZandtValentineUITests.swift */; };
 		4909215F22FF157D00128E26 /* AppColours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909215E22FF157D00128E26 /* AppColours.swift */; };
+		49337E6922FF1AA8000E4F4F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49337E6822FF1AA8000E4F4F /* LoginView.swift */; };
+		49337E6B22FF1B17000E4F4F /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49337E6A22FF1B17000E4F4F /* AppFonts.swift */; };
+		49337E6D22FF1BDA000E4F4F /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49337E6C22FF1BDA000E4F4F /* Keyboard.swift */; };
+		49337E6F230000F4000E4F4F /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49337E6E230000F4000E4F4F /* UIViewExtensions.swift */; };
 		8976A89F042C00B1EC202D51 /* Pods_Moneybox_AndrewZandtValentineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BFF23F0E140769309DE97D0 /* Pods_Moneybox_AndrewZandtValentineTests.framework */; };
 		94BB4EE6B051DE31AA859F98 /* Pods_Moneybox_AndrewZandtValentineUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B185FEE803469F9F982AF1F4 /* Pods_Moneybox_AndrewZandtValentineUITests.framework */; };
 		A571E61E32DE227545565D08 /* Pods_Moneybox_AndrewZandtValentine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6545F72C8CB78711D1118B /* Pods_Moneybox_AndrewZandtValentine.framework */; };
@@ -53,6 +57,10 @@
 		4909214E22FF144800128E26 /* Moneybox_AndrewZandtValentineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneybox_AndrewZandtValentineUITests.swift; sourceTree = "<group>"; };
 		4909215022FF144800128E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4909215E22FF157D00128E26 /* AppColours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColours.swift; sourceTree = "<group>"; };
+		49337E6822FF1AA8000E4F4F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		49337E6A22FF1B17000E4F4F /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		49337E6C22FF1BDA000E4F4F /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		49337E6E230000F4000E4F4F /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		779E4F5431E53BCB35586C9D /* Pods-Moneybox-AndrewZandtValentine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moneybox-AndrewZandtValentine.release.xcconfig"; path = "Target Support Files/Pods-Moneybox-AndrewZandtValentine/Pods-Moneybox-AndrewZandtValentine.release.xcconfig"; sourceTree = "<group>"; };
 		B185FEE803469F9F982AF1F4 /* Pods_Moneybox_AndrewZandtValentineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moneybox_AndrewZandtValentineUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB95FCA32EDE3FEF67AF758E /* Pods-Moneybox-AndrewZandtValentineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moneybox-AndrewZandtValentineTests.debug.xcconfig"; path = "Target Support Files/Pods-Moneybox-AndrewZandtValentineTests/Pods-Moneybox-AndrewZandtValentineTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				4909213022FF144400128E26 /* LoginVC.swift */,
+				49337E6822FF1AA8000E4F4F /* LoginView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -154,6 +163,9 @@
 			isa = PBXGroup;
 			children = (
 				4909215E22FF157D00128E26 /* AppColours.swift */,
+				49337E6A22FF1B17000E4F4F /* AppFonts.swift */,
+				49337E6C22FF1BDA000E4F4F /* Keyboard.swift */,
+				49337E6E230000F4000E4F4F /* UIViewExtensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -168,7 +180,6 @@
 				2C6874589EF5055124EB352A /* Pods-Moneybox-AndrewZandtValentineUITests.debug.xcconfig */,
 				DD63E62A71ECA29A1F573649 /* Pods-Moneybox-AndrewZandtValentineUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -403,7 +414,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4909213122FF144400128E26 /* LoginVC.swift in Sources */,
+				49337E6F230000F4000E4F4F /* UIViewExtensions.swift in Sources */,
+				49337E6B22FF1B17000E4F4F /* AppFonts.swift in Sources */,
 				4909212F22FF144400128E26 /* AppDelegate.swift in Sources */,
+				49337E6922FF1AA8000E4F4F /* LoginView.swift in Sources */,
+				49337E6D22FF1BDA000E4F4F /* Keyboard.swift in Sources */,
 				4909215F22FF157D00128E26 /* AppColours.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
