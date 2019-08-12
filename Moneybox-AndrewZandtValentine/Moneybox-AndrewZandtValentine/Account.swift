@@ -12,5 +12,4 @@ struct Account {
     var name : String
     var value : Double
     var moneybox : Double
-    var colour : UIColor
 }

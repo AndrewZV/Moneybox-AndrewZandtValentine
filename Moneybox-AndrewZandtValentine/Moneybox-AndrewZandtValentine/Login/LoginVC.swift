@@ -29,7 +29,11 @@ class LoginVC: UIViewController {
 
     // MARK: IBActions
     @objc private func loginButtonPressed() {
-        print("Login!")
+        let lh = LoginHandler()
+        lh.loginAttempt(email: "androidtest@moneyboxapp.com", password: "P455word12")
+        
+        //UserDefaults.standard.set(true, forKey: UserDefaultKeys.loginState.rawValue)
+        //LoginHandler.updateRootVC()
     }
     
 }

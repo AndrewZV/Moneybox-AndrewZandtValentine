@@ -32,7 +32,7 @@ class HomepageView: UIView {
     let tableView: UITableView = {
         let tableView = UITableView()
         tableView.separatorStyle = .none
-        tableView.allowsSelection = false
+        tableView.allowsSelection = true
         tableView.rowHeight = 120
         tableView.showsVerticalScrollIndicator = false
         tableView.alwaysBounceVertical = false
@@ -65,8 +65,6 @@ class HomepageView: UIView {
             make.left.equalTo(self.layoutMarginsGuide).offset(offset)
             make.right.equalTo(self.layoutMarginsGuide).inset(offset)
         }
-        
-        
     }
     
     required init?(coder aDecoder: NSCoder) {

@@ -15,11 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        self.window = UIWindow(frame: UIScreen.main.bounds)
-        self.window?.backgroundColor = UIColor.AppColours.moneyboxBlue
-        //self.window?.rootViewController = LoginVC()
-        self.window?.rootViewController = HomepageVC()
-        self.window?.makeKeyAndVisible()
+        LoginHandler.updateRootVC()
         
         return true
     }

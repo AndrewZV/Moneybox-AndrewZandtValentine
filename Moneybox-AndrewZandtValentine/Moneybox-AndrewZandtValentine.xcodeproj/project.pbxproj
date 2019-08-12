@@ -15,9 +15,10 @@
 		4909214F22FF144800128E26 /* Moneybox_AndrewZandtValentineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909214E22FF144800128E26 /* Moneybox_AndrewZandtValentineUITests.swift */; };
 		4909215F22FF157D00128E26 /* AppColours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909215E22FF157D00128E26 /* AppColours.swift */; };
 		49337E6922FF1AA8000E4F4F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49337E6822FF1AA8000E4F4F /* LoginView.swift */; };
-		49337E6B22FF1B17000E4F4F /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49337E6A22FF1B17000E4F4F /* AppFonts.swift */; };
 		49337E6D22FF1BDA000E4F4F /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49337E6C22FF1BDA000E4F4F /* Keyboard.swift */; };
 		49337E6F230000F4000E4F4F /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49337E6E230000F4000E4F4F /* UIViewExtensions.swift */; };
+		49CDA3992301AA38000229E7 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDA3982301AA38000229E7 /* Enums.swift */; };
+		49CDA39D2301AE47000229E7 /* LoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDA39C2301AE47000229E7 /* LoginHandler.swift */; };
 		49F8583023003E5E004EB28C /* HomepageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8582F23003E5E004EB28C /* HomepageVC.swift */; };
 		49F8583223003E6D004EB28C /* HomepageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8583123003E6D004EB28C /* HomepageView.swift */; };
 		49F8583423003E7A004EB28C /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8583323003E7A004EB28C /* AccountVC.swift */; };
@@ -65,9 +66,10 @@
 		4909215022FF144800128E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4909215E22FF157D00128E26 /* AppColours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColours.swift; sourceTree = "<group>"; };
 		49337E6822FF1AA8000E4F4F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		49337E6A22FF1B17000E4F4F /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
 		49337E6C22FF1BDA000E4F4F /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 		49337E6E230000F4000E4F4F /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		49CDA3982301AA38000229E7 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		49CDA39C2301AE47000229E7 /* LoginHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHandler.swift; sourceTree = "<group>"; };
 		49F8582F23003E5E004EB28C /* HomepageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageVC.swift; sourceTree = "<group>"; };
 		49F8583123003E6D004EB28C /* HomepageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageView.swift; sourceTree = "<group>"; };
 		49F8583323003E7A004EB28C /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				49F8582D23003D10004EB28C /* Homepage */,
 				49F8582E23003D4B004EB28C /* Account */,
 				49F8583B230152D3004EB28C /* Account.swift */,
+				49CDA39C2301AE47000229E7 /* LoginHandler.swift */,
 				4909212E22FF144400128E26 /* AppDelegate.swift */,
 				4909213522FF144800128E26 /* Assets.xcassets */,
 				4909213722FF144800128E26 /* LaunchScreen.storyboard */,
@@ -180,9 +183,9 @@
 			isa = PBXGroup;
 			children = (
 				4909215E22FF157D00128E26 /* AppColours.swift */,
-				49337E6A22FF1B17000E4F4F /* AppFonts.swift */,
 				49337E6C22FF1BDA000E4F4F /* Keyboard.swift */,
 				49337E6E230000F4000E4F4F /* UIViewExtensions.swift */,
+				49CDA3982301AA38000229E7 /* Enums.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -454,10 +457,11 @@
 				49F8583223003E6D004EB28C /* HomepageView.swift in Sources */,
 				4909213122FF144400128E26 /* LoginVC.swift in Sources */,
 				49337E6F230000F4000E4F4F /* UIViewExtensions.swift in Sources */,
+				49CDA39D2301AE47000229E7 /* LoginHandler.swift in Sources */,
 				49F8583023003E5E004EB28C /* HomepageVC.swift in Sources */,
 				49F8583623003E84004EB28C /* AccountView.swift in Sources */,
 				49F8583C230152D3004EB28C /* Account.swift in Sources */,
-				49337E6B22FF1B17000E4F4F /* AppFonts.swift in Sources */,
+				49CDA3992301AA38000229E7 /* Enums.swift in Sources */,
 				4909212F22FF144400128E26 /* AppDelegate.swift in Sources */,
 				49F8583E23015835004EB28C /* HomepageCell.swift in Sources */,
 				49F8583423003E7A004EB28C /* AccountVC.swift in Sources */,

@@ -11,7 +11,12 @@ import UIKit
 class HomepageVC: UIViewController {
     
     let cellId = "cellId"
-    var accounts : [Account] = [Account]()
+    var accounts: [Account] = [Account]()
+    var colours: [UIColor] = [UIColor.AppColours.purple, UIColor.AppColours.red, UIColor.AppColours.orange]
+    enum Text: String {
+        case navBarTitle = "Accounts"
+        case leftNavButtonTitle = "Logout"
+    }
     
     override func loadView() {
         super.loadView()
@@ -22,6 +27,7 @@ class HomepageVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setupNavBar()
         getAccounts()
         setupTableView()
     }
@@ -32,18 +38,31 @@ class HomepageVC: UIViewController {
     unowned var greetingLabel: UILabel { return homepageView.greetingLabel }
     unowned var totalPlanValueLabel: UILabel { return homepageView.totalPlanValueLabel }
     
-    func setupTableView() {
+    private func setupNavBar() {
+        title = Text.navBarTitle.rawValue
+        let logout = UIBarButtonItem(title: Text.leftNavButtonTitle.rawValue, style: .plain, target: self, action: #selector(logoutButtonPressed))
+        navigationItem.leftBarButtonItem = logout
+    }
+    
+    private func setupTableView() {
         tableView.dataSource = self
+        tableView.delegate = self
         tableView.register(HomepageCell.self, forCellReuseIdentifier: cellId)
     }
     
     private func getAccounts() {
-        accounts.append(Account(name: "Stocks and Shares ISA", value: 1000, moneybox: 50, colour: UIColor.AppColours.purple))
-        accounts.append(Account(name: "General Investment Account", value: 2000, moneybox: 20, colour: UIColor.AppColours.red))
-        accounts.append(Account(name: "Lifetime ISA", value: 4000, moneybox: 100, colour: UIColor.AppColours.orange))
+        accounts.append(Account(name: "Stocks and Shares ISA", value: 1000, moneybox: 50))
+        accounts.append(Account(name: "General Investment Account", value: 2000, moneybox: 20))
+        accounts.append(Account(name: "Lifetime ISA", value: 4000, moneybox: 100))
         
         greetingLabel.text = "Hello Andrew!"
         totalPlanValueLabel.text = "Total Plan Value: £7000.00"
+    }
+    
+    // MARK: IBActions
+    @objc private func logoutButtonPressed() {
+        UserDefaults.standard.set(false, forKey: UserDefaultKeys.loginState.rawValue)
+        LoginHandler.updateRootVC()
     }
     
 }
@@ -63,9 +82,22 @@ extension HomepageVC: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! HomepageCell
         let currAccount = accounts[indexPath.row]
         
+        cell.colour = colours[indexPath.row % colours.count]
         cell.account = currAccount
         
         return cell
+    }
+}
+
+extension HomepageVC: UITableViewDelegate {
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = AccountVC()
+        
+        vc.colour = colours[indexPath.row % colours.count]
+        vc.account = accounts[indexPath.row]
+        
+        navigationController!.pushViewController(vc, animated: true)
     }
     
 }

@@ -10,9 +10,18 @@ import UIKit
 
 class HomepageCell: UITableViewCell {
     
+    var colour: UIColor?
+    
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        
+        backgroundView = HomepageCellView()
+        selectionStyle = .none
+    }
+    
     var account: Account? {
         didSet {
-            backgroundButton.backgroundColor = account?.colour
+            backView.backgroundColor = colour //CHANGE
             accountNameLabel.text = account?.name
             let value = String(format: "Plan Value: £%.2f", account!.value) //ADD GUARD STATEMENTS HERE **********
             accountValueLabel.text = value
@@ -23,15 +32,14 @@ class HomepageCell: UITableViewCell {
     
     // MARK: IBOutlets
     unowned var homepageCellView: HomepageCellView { return self.backgroundView as! HomepageCellView }
-    unowned var backgroundButton: UIButton { return homepageCellView.backgroundButton }
+    unowned var backView: UIView { return homepageCellView.backView }
     unowned var accountNameLabel: UILabel { return homepageCellView.accountNameLabel }
     unowned var accountValueLabel: UILabel { return homepageCellView.accountValueLabel }
     unowned var accountMoneyboxLabel: UILabel { return homepageCellView.accountMoneyboxLabel }
     
-    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-        super.init(style: style, reuseIdentifier: reuseIdentifier)
-        
-        self.backgroundView = HomepageCellView()
+    // MARK: IBActions
+    @objc private func accountButtonPressed() {
+        print("Press!")
     }
     
     required init?(coder aDecoder: NSCoder) {

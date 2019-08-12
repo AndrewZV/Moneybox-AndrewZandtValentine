@@ -17,6 +17,7 @@ class HomepageCellView: UIView {
         label.textColor = UIColor.AppColours.white
         label.backgroundColor = UIColor.clear
         label.textAlignment = .left
+        label.isUserInteractionEnabled = false
         return label
     }()
     
@@ -26,6 +27,7 @@ class HomepageCellView: UIView {
         label.textColor = UIColor.AppColours.white
         label.backgroundColor = UIColor.clear
         label.textAlignment = .left
+        label.isUserInteractionEnabled = false
         return label
     }()
     
@@ -35,6 +37,7 @@ class HomepageCellView: UIView {
         label.textColor = UIColor.AppColours.white
         label.backgroundColor = UIColor.clear
         label.textAlignment = .left
+        label.isUserInteractionEnabled = false
         return label
     }()
     
@@ -44,14 +47,14 @@ class HomepageCellView: UIView {
         stackView.distribution = .fillEqually
         stackView.alignment = .leading
         stackView.spacing = 5.0
+        stackView.isUserInteractionEnabled = false
         return stackView
     }()
     
-    let backgroundButton: UIButton = {
-        let button = UIButton(type: .system)
-        button.layer.borderWidth = 0
-        button.set(cornerRadius: 20.0)
-        return button
+    let backView: UIView = {
+        let view = UIView()
+        view.set(cornerRadius: 20.0)
+        return view
     }()
     
     override init(frame: CGRect) {
@@ -59,13 +62,13 @@ class HomepageCellView: UIView {
         
         backgroundColor = UIColor.clear
         
-        setSubviewForAutoLayout(backgroundButton)
-        backgroundButton.snp.makeConstraints { (make) in
+        setSubviewForAutoLayout(backView)
+        backView.snp.makeConstraints { (make) in
             make.top.left.right.equalToSuperview()
             make.bottom.equalToSuperview().inset(10)
         }
         
-        backgroundButton.addSubview(stackView)
+        backView.addSubview(stackView)
         stackView.snp.makeConstraints { (make) in
             make.top.left.equalToSuperview().offset(15)
             make.bottom.equalToSuperview().inset(15)
