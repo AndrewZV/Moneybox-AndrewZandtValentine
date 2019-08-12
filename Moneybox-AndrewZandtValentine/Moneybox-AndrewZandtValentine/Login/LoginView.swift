@@ -12,13 +12,14 @@ import SnapKit
 class LoginView: UIView {
     
     // MARK: Text Enum
-    private enum Text: String {
+    enum Text: String {
         case email, password
         case login = "Log In"
+        case logo = "moneybox"
     }
     
     // MARK: Subviews
-    public let emailTextField: UITextField = {
+    let emailTextField: UITextField = {
         let textField = UITextField()
         textField.placeholder = Text.email.rawValue.capitalized
         textField.font = UIFont(name: AppFonts.avenirNextRegular.rawValue, size: 20.0)
@@ -29,7 +30,7 @@ class LoginView: UIView {
         return textField
     }()
     
-    public let passwordTextField: UITextField = {
+    let passwordTextField: UITextField = {
         let textField = UITextField()
         textField.placeholder = Text.password.rawValue.capitalized
         textField.font = UIFont(name: AppFonts.avenirNextRegular.rawValue, size: 20.0)
@@ -40,7 +41,7 @@ class LoginView: UIView {
         return textField
     }()
     
-    public let loginButton: UIButton = {
+    let loginButton: UIButton = {
         let button = UIButton(type: .system)
         button.titleLabel?.font = UIFont(name: AppFonts.avenirNextRegular.rawValue, size: 20.0)
         button.setTitle(Text.login.rawValue, for: .normal)
@@ -61,9 +62,9 @@ class LoginView: UIView {
         return stackView
     }()
     
-    public let logoLabel: UILabel = {
+    let logoLabel: UILabel = {
         let label = UILabel()
-        label.text = "moneybox"
+        label.text = Text.logo.rawValue
         label.font = UIFont(name: AppFonts.avenirNextRegular.rawValue, size: 60.0)
         label.textColor = UIColor.AppColours.white
         label.backgroundColor = UIColor.clear
@@ -76,7 +77,8 @@ class LoginView: UIView {
         
         backgroundColor = UIColor.AppColours.moneyboxBlue
         
-        setSubviewForAutoLayout(stackView)
+        setSubviewsForAutoLayout([stackView, logoLabel])
+        
         stackView.snp.makeConstraints { (make) in
             make.center.equalToSuperview()
             make.leading.equalToSuperview().offset(40.0)
@@ -87,9 +89,7 @@ class LoginView: UIView {
             make.height.equalTo(self).multipliedBy(0.075)
         }
         
-        setSubviewForAutoLayout(logoLabel)
         logoLabel.snp.makeConstraints { (make) in
-            
             make.top.equalToSuperview().inset(40.0)
             make.left.equalToSuperview().offset(40.0)
             make.right.equalToSuperview().inset(40.0)

@@ -20,6 +20,9 @@ extension UIColor {
     struct AppColours {
         static let moneyboxBlue = UIColor(red: 106, green: 189, blue: 186)
         static let white = UIColor(red: 255, green: 255, blue: 255)
-        static let darkGrey = UIColor(red: 85, green: 98, blue: 113) 
+        static let darkGrey = UIColor(red: 85, green: 98, blue: 113)
+        static let purple = UIColor(red: 128, green: 106, blue: 189)
+        static let red = UIColor(red: 222, green: 70, blue: 64)
+        static let orange = UIColor(red: 234, green: 157, blue: 79)
     }
 }

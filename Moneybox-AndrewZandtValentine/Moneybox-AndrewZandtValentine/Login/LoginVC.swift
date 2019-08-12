@@ -10,7 +10,7 @@ import UIKit
 
 class LoginVC: UIViewController {
 
-    public override func loadView() {
+    override func loadView() {
         self.view = LoginView()
     }
     
@@ -18,7 +18,6 @@ class LoginVC: UIViewController {
         super.viewDidLoad()
         
         self.loginButton.addTarget(self, action: #selector(loginButtonPressed), for: .touchUpInside)
-    
     }
 
     // MARK: IBOutlets
@@ -26,6 +25,7 @@ class LoginVC: UIViewController {
     unowned var emailTextField: UITextField { return loginView.emailTextField }
     unowned var passwordTextField: UITextField { return loginView.passwordTextField }
     unowned var loginButton: UIButton { return loginView.loginButton }
+    unowned var logoLabel: UILabel { return loginView.logoLabel }
 
     // MARK: IBActions
     @objc private func loginButtonPressed() {

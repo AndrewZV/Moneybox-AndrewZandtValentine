@@ -8,4 +8,6 @@
 
 enum AppFonts: String {
     case avenirNextRegular = "AvenirNext-Regular"
+    case avenirNextMedium = "AvenirNext-Medium"
+    case avenirNextBold = "AvenirNext-Bold"
 }
