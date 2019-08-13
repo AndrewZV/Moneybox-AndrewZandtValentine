@@ -7,6 +7,7 @@ target 'Moneybox-AndrewZandtValentine' do
 
   # Pods for Moneybox-AndrewZandtValentine
     pod 'SnapKit', '~> 5.0.0'
+    pod 'Alamofire', '~> 5.0.0-beta.5'
 
   target 'Moneybox-AndrewZandtValentineTests' do
     inherit! :search_paths
