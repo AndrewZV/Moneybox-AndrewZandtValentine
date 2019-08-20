@@ -10,6 +10,7 @@ import UIKit
 
 struct Account {
     var name : String
+    var id : Int
     var value : Double
     var moneybox : Double
 }

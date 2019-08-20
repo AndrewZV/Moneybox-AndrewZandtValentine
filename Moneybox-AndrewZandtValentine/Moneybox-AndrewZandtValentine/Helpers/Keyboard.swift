@@ -12,6 +12,7 @@ enum KeyboardType {
     case email, password, numbers, phonenumber, normal
 }
 
+//base keyboard templates
 extension UITextField {
     func setUpKeyboard(_ type: KeyboardType, returnKeyType: UIReturnKeyType) {
         self.autocapitalizationType = .none

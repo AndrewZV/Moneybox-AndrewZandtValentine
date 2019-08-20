@@ -8,6 +8,7 @@
 
 import UIKit
 
+//make rounded views
 public extension UIView {
     func set(cornerRadius: CGFloat) {
         self.clipsToBounds = true
@@ -15,6 +16,7 @@ public extension UIView {
     }
 }
 
+//add views as subviews
 public extension UIView {
     func setSubviewForAutoLayout(_ subview: UIView) {
         subview.translatesAutoresizingMaskIntoConstraints = false

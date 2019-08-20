@@ -13,7 +13,7 @@ class HomepageView: UIView {
     
     let greetingLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont(name: AppFonts.avenirNextRegular.rawValue, size: 30.0)
+        label.font = UIFont(name: AppFont.avenirNextRegular.rawValue, size: 30.0)
         label.textColor = UIColor.AppColours.darkGrey
         label.backgroundColor = UIColor.clear
         label.textAlignment = .left
@@ -22,7 +22,7 @@ class HomepageView: UIView {
     
     let totalPlanValueLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont(name: AppFonts.avenirNextRegular.rawValue, size: 20.0)
+        label.font = UIFont(name: AppFont.avenirNextRegular.rawValue, size: 25.0)
         label.textColor = UIColor.AppColours.darkGrey
         label.backgroundColor = UIColor.clear
         label.textAlignment = .right
@@ -50,13 +50,13 @@ class HomepageView: UIView {
         
         tableView.snp.makeConstraints { [unowned self] (make) in
             make.bottom.left.right.equalTo(self.layoutMarginsGuide)
-            make.height.equalTo(self).multipliedBy(0.7)
+            make.height.equalTo(self.layoutMarginsGuide).multipliedBy(0.85)
         }
         
         greetingLabel.snp.makeConstraints { [unowned self] (make) in
             make.top.left.equalTo(self.layoutMarginsGuide).offset(offset)
             make.right.equalTo(self.layoutMarginsGuide).inset(offset)
-            make.height.equalTo(self).multipliedBy(0.1)
+            make.height.equalTo(self).multipliedBy(0.08)
         }
         
         totalPlanValueLabel.snp.makeConstraints { [unowned self] (make) in

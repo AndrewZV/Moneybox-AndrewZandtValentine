@@ -13,7 +13,7 @@ class HomepageCellView: UIView {
     
     let accountNameLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont(name: AppFonts.avenirNextBold.rawValue, size: 20.0)
+        label.font = UIFont(name: AppFont.avenirNextBold.rawValue, size: 20.0)
         label.textColor = UIColor.AppColours.white
         label.backgroundColor = UIColor.clear
         label.textAlignment = .left
@@ -23,7 +23,7 @@ class HomepageCellView: UIView {
     
     let accountValueLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont(name: AppFonts.avenirNextMedium.rawValue, size: 18.0)
+        label.font = UIFont(name: AppFont.avenirNextMedium.rawValue, size: 18.0)
         label.textColor = UIColor.AppColours.white
         label.backgroundColor = UIColor.clear
         label.textAlignment = .left
@@ -33,7 +33,7 @@ class HomepageCellView: UIView {
     
     let accountMoneyboxLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont(name: AppFonts.avenirNextMedium.rawValue, size: 18.0)
+        label.font = UIFont(name: AppFont.avenirNextMedium.rawValue, size: 18.0)
         label.textColor = UIColor.AppColours.white
         label.backgroundColor = UIColor.clear
         label.textAlignment = .left

@@ -6,12 +6,31 @@
 //  Copyright © 2019 Andrew Zandt-Valentine. All rights reserved.
 //
 
-enum AppFonts: String {
+//fonts
+enum AppFont: String {
     case avenirNextRegular = "AvenirNext-Regular"
     case avenirNextMedium = "AvenirNext-Medium"
     case avenirNextBold = "AvenirNext-Bold"
 }
 
-enum UserDefaultKeys: String {
-    case loginState = "loginState"
+//network methods
+enum NetworkHttpMethod: String {
+    case post = "POST"
+    case get = "GET"
+}
+
+//login errors
+enum LoginError: Error {
+    case invalidDetails
+    case serverError
+}
+
+enum NetworkLoginResult {
+    case success((String, String))
+    case failure(LoginError)
+}
+
+enum NetworkPaymentResult {
+    case success(Double)
+    case failure(String)
 }

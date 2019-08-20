@@ -22,7 +22,7 @@ class LoginView: UIView {
     let emailTextField: UITextField = {
         let textField = UITextField()
         textField.placeholder = Text.email.rawValue.capitalized
-        textField.font = UIFont(name: AppFonts.avenirNextRegular.rawValue, size: 20.0)
+        textField.font = UIFont(name: AppFont.avenirNextRegular.rawValue, size: 20.0)
         textField.textColor = UIColor.AppColours.darkGrey
         textField.minimumFontSize = 20.0
         textField.borderStyle = .roundedRect
@@ -33,7 +33,7 @@ class LoginView: UIView {
     let passwordTextField: UITextField = {
         let textField = UITextField()
         textField.placeholder = Text.password.rawValue.capitalized
-        textField.font = UIFont(name: AppFonts.avenirNextRegular.rawValue, size: 20.0)
+        textField.font = UIFont(name: AppFont.avenirNextRegular.rawValue, size: 20.0)
         textField.textColor = UIColor.AppColours.darkGrey
         textField.minimumFontSize = 20.0
         textField.borderStyle = .roundedRect
@@ -43,7 +43,7 @@ class LoginView: UIView {
     
     let loginButton: UIButton = {
         let button = UIButton(type: .system)
-        button.titleLabel?.font = UIFont(name: AppFonts.avenirNextRegular.rawValue, size: 20.0)
+        button.titleLabel?.font = UIFont(name: AppFont.avenirNextRegular.rawValue, size: 20.0)
         button.setTitle(Text.login.rawValue, for: .normal)
         button.setTitleColor(UIColor.AppColours.white, for: .normal)
         button.backgroundColor = UIColor.clear
@@ -65,13 +65,14 @@ class LoginView: UIView {
     let logoLabel: UILabel = {
         let label = UILabel()
         label.text = Text.logo.rawValue
-        label.font = UIFont(name: AppFonts.avenirNextRegular.rawValue, size: 60.0)
+        label.font = UIFont(name: AppFont.avenirNextRegular.rawValue, size: 60.0)
         label.textColor = UIColor.AppColours.white
         label.backgroundColor = UIColor.clear
         label.textAlignment = .center
         return label
     }()
     
+    //Setup view constraints
     override init(frame: CGRect) {
         super.init(frame: frame)
         

@@ -11,12 +11,15 @@
 		4909213122FF144400128E26 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909213022FF144400128E26 /* LoginVC.swift */; };
 		4909213622FF144800128E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4909213522FF144800128E26 /* Assets.xcassets */; };
 		4909213922FF144800128E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4909213722FF144800128E26 /* LaunchScreen.storyboard */; };
-		4909214422FF144800128E26 /* Moneybox_AndrewZandtValentineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909214322FF144800128E26 /* Moneybox_AndrewZandtValentineTests.swift */; };
 		4909214F22FF144800128E26 /* Moneybox_AndrewZandtValentineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909214E22FF144800128E26 /* Moneybox_AndrewZandtValentineUITests.swift */; };
 		4909215F22FF157D00128E26 /* AppColours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4909215E22FF157D00128E26 /* AppColours.swift */; };
+		492281F2230A95540077C48B /* HttpRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492281F1230A95540077C48B /* HttpRequestBuilder.swift */; };
 		49337E6922FF1AA8000E4F4F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49337E6822FF1AA8000E4F4F /* LoginView.swift */; };
 		49337E6D22FF1BDA000E4F4F /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49337E6C22FF1BDA000E4F4F /* Keyboard.swift */; };
 		49337E6F230000F4000E4F4F /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49337E6E230000F4000E4F4F /* UIViewExtensions.swift */; };
+		49603353230BF2D800CD0864 /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49603352230BF2D800CD0864 /* LoginTests.swift */; };
+		49AA0CC72309640F00AFB4FA /* NetworkVerificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AA0CC62309640F00AFB4FA /* NetworkVerificationHandler.swift */; };
+		49AA0CC9230964A500AFB4FA /* NetworkDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AA0CC8230964A500AFB4FA /* NetworkDataHandler.swift */; };
 		49CDA3992301AA38000229E7 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDA3982301AA38000229E7 /* Enums.swift */; };
 		49CDA39D2301AE47000229E7 /* LoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CDA39C2301AE47000229E7 /* LoginHandler.swift */; };
 		49F8583023003E5E004EB28C /* HomepageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8582F23003E5E004EB28C /* HomepageVC.swift */; };
@@ -59,15 +62,18 @@
 		4909213822FF144800128E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4909213A22FF144800128E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4909213F22FF144800128E26 /* Moneybox-AndrewZandtValentineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moneybox-AndrewZandtValentineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4909214322FF144800128E26 /* Moneybox_AndrewZandtValentineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneybox_AndrewZandtValentineTests.swift; sourceTree = "<group>"; };
 		4909214522FF144800128E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4909214A22FF144800128E26 /* Moneybox-AndrewZandtValentineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moneybox-AndrewZandtValentineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4909214E22FF144800128E26 /* Moneybox_AndrewZandtValentineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneybox_AndrewZandtValentineUITests.swift; sourceTree = "<group>"; };
 		4909215022FF144800128E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4909215E22FF157D00128E26 /* AppColours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColours.swift; sourceTree = "<group>"; };
+		492281F1230A95540077C48B /* HttpRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequestBuilder.swift; sourceTree = "<group>"; };
 		49337E6822FF1AA8000E4F4F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		49337E6C22FF1BDA000E4F4F /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 		49337E6E230000F4000E4F4F /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		49603352230BF2D800CD0864 /* LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
+		49AA0CC62309640F00AFB4FA /* NetworkVerificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkVerificationHandler.swift; sourceTree = "<group>"; };
+		49AA0CC8230964A500AFB4FA /* NetworkDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataHandler.swift; sourceTree = "<group>"; };
 		49CDA3982301AA38000229E7 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		49CDA39C2301AE47000229E7 /* LoginHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHandler.swift; sourceTree = "<group>"; };
 		49F8582F23003E5E004EB28C /* HomepageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageVC.swift; sourceTree = "<group>"; };
@@ -138,12 +144,12 @@
 		4909212D22FF144400128E26 /* Moneybox-AndrewZandtValentine */ = {
 			isa = PBXGroup;
 			children = (
+				492AE266230AD47E00D3AEC7 /* Network Helpers */,
+				492AE265230AD47000D3AEC7 /* Models */,
 				4909215D22FF156D00128E26 /* Helpers */,
 				4909215C22FF150800128E26 /* Login */,
 				49F8582D23003D10004EB28C /* Homepage */,
 				49F8582E23003D4B004EB28C /* Account */,
-				49F8583B230152D3004EB28C /* Account.swift */,
-				49CDA39C2301AE47000229E7 /* LoginHandler.swift */,
 				4909212E22FF144400128E26 /* AppDelegate.swift */,
 				4909213522FF144800128E26 /* Assets.xcassets */,
 				4909213722FF144800128E26 /* LaunchScreen.storyboard */,
@@ -155,8 +161,8 @@
 		4909214222FF144800128E26 /* Moneybox-AndrewZandtValentineTests */ = {
 			isa = PBXGroup;
 			children = (
-				4909214322FF144800128E26 /* Moneybox_AndrewZandtValentineTests.swift */,
 				4909214522FF144800128E26 /* Info.plist */,
+				49603352230BF2D800CD0864 /* LoginTests.swift */,
 			);
 			path = "Moneybox-AndrewZandtValentineTests";
 			sourceTree = "<group>";
@@ -188,6 +194,25 @@
 				49CDA3982301AA38000229E7 /* Enums.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		492AE265230AD47000D3AEC7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49F8583B230152D3004EB28C /* Account.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		492AE266230AD47E00D3AEC7 /* Network Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				49CDA39C2301AE47000229E7 /* LoginHandler.swift */,
+				49AA0CC62309640F00AFB4FA /* NetworkVerificationHandler.swift */,
+				49AA0CC8230964A500AFB4FA /* NetworkDataHandler.swift */,
+				492281F1230A95540077C48B /* HttpRequestBuilder.swift */,
+			);
+			path = "Network Helpers";
 			sourceTree = "<group>";
 		};
 		49F8582D23003D10004EB28C /* Homepage */ = {
@@ -459,12 +484,15 @@
 				49337E6F230000F4000E4F4F /* UIViewExtensions.swift in Sources */,
 				49CDA39D2301AE47000229E7 /* LoginHandler.swift in Sources */,
 				49F8583023003E5E004EB28C /* HomepageVC.swift in Sources */,
+				49AA0CC9230964A500AFB4FA /* NetworkDataHandler.swift in Sources */,
 				49F8583623003E84004EB28C /* AccountView.swift in Sources */,
 				49F8583C230152D3004EB28C /* Account.swift in Sources */,
 				49CDA3992301AA38000229E7 /* Enums.swift in Sources */,
 				4909212F22FF144400128E26 /* AppDelegate.swift in Sources */,
 				49F8583E23015835004EB28C /* HomepageCell.swift in Sources */,
 				49F8583423003E7A004EB28C /* AccountVC.swift in Sources */,
+				492281F2230A95540077C48B /* HttpRequestBuilder.swift in Sources */,
+				49AA0CC72309640F00AFB4FA /* NetworkVerificationHandler.swift in Sources */,
 				49337E6922FF1AA8000E4F4F /* LoginView.swift in Sources */,
 				49337E6D22FF1BDA000E4F4F /* Keyboard.swift in Sources */,
 				4909215F22FF157D00128E26 /* AppColours.swift in Sources */,
@@ -475,7 +503,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4909214422FF144800128E26 /* Moneybox_AndrewZandtValentineTests.swift in Sources */,
+				49603353230BF2D800CD0864 /* LoginTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

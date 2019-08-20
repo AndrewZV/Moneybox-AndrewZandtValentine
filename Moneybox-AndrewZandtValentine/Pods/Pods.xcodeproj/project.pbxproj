@@ -147,7 +147,7 @@
 		469F6E14AFEC74F24F2FC6F612656036 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		46F95C671C9A206EEF696A4B50095C08 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
 		4FAD6A0A99334EBE881EA5AC3D024247 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
-		511A630670284A13AEC6289B1C44C5E0 /* Pods_Moneybox_AndrewZandtValentineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Moneybox_AndrewZandtValentineTests.framework; path = "Pods-Moneybox-AndrewZandtValentineTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		511A630670284A13AEC6289B1C44C5E0 /* Pods_Moneybox_AndrewZandtValentineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moneybox_AndrewZandtValentineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		528467C5CA8E6D3D4F7FB79974FF5844 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		55301830B05C099E4BB7AA610A8464C6 /* Pods-Moneybox-AndrewZandtValentineUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Moneybox-AndrewZandtValentineUITests-Info.plist"; sourceTree = "<group>"; };
 		572498DEEC17E04F27E5A2D46FE266F6 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
@@ -168,12 +168,12 @@
 		756FAC3987456E89C0F1A6D31D93CEF0 /* Pods-Moneybox-AndrewZandtValentine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Moneybox-AndrewZandtValentine.modulemap"; sourceTree = "<group>"; };
 		76E78513798D0237CD62D82CA9A7DB00 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
 		77714439E67E7EB95FBFDA4764DDC68B /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
-		7A7F47F547B4D1443D29CAF49DB5BDF8 /* Pods_Moneybox_AndrewZandtValentineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Moneybox_AndrewZandtValentineUITests.framework; path = "Pods-Moneybox-AndrewZandtValentineUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7F47F547B4D1443D29CAF49DB5BDF8 /* Pods_Moneybox_AndrewZandtValentineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moneybox_AndrewZandtValentineUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B427E1FCA9FD51C8C88AD6516380D21 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		7ED0CA57858503C94E4B6CB3D3C8EAF7 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
 		81F6F339DA5A9CA0419AFD47088843A3 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
 		834C3084DE5C6BA206230A8C2D1B5EE8 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		858571DD0F7E02E0CAB4391143FB3423 /* Pods_Moneybox_AndrewZandtValentine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Moneybox_AndrewZandtValentine.framework; path = "Pods-Moneybox-AndrewZandtValentine.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		858571DD0F7E02E0CAB4391143FB3423 /* Pods_Moneybox_AndrewZandtValentine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moneybox_AndrewZandtValentine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		871A5D8F044F4F012E27261F47AA7009 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
 		8A0C7E5363B9A3C070C41932A9DDB950 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
 		8B079F294DA5D9A879E6D53A91F51A1E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
@@ -184,7 +184,7 @@
 		9400256E50A246205AE0B1C2C7F69372 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		96A14168382E007580D1454C9DB78122 /* AFResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFResult.swift; path = Source/AFResult.swift; sourceTree = "<group>"; };
 		98FD5AEA2FD3217DD6D0433597283C8F /* Pods-Moneybox-AndrewZandtValentineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Moneybox-AndrewZandtValentineUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0934DCCD10315F462E866D8920CB421 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		A15290C340D62818F7312CF2177DF1A4 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
 		A287A37A7571112C85F9EA053357A48E /* Pods-Moneybox-AndrewZandtValentine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Moneybox-AndrewZandtValentine.release.xcconfig"; sourceTree = "<group>"; };
@@ -201,7 +201,7 @@
 		B53665C5F28F8958D00896939E6FB240 /* Pods-Moneybox-AndrewZandtValentine-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Moneybox-AndrewZandtValentine-acknowledgements.plist"; sourceTree = "<group>"; };
 		B72D452BD817C5BE2E0AAE06F1B39748 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
 		B811D440EAA44148CEE25C09401277E2 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		B84D420AA520778C447EE6502A6F9738 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84D420AA520778C447EE6502A6F9738 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9ECD7A33627C9C00B91D8134DFB3C67 /* Pods-Moneybox-AndrewZandtValentineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Moneybox-AndrewZandtValentineTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C334F5CA8067DA6B19A14E9B81D37505 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		C60B39DB1C3F6C2D5566DC361BFFA429 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
@@ -233,7 +233,7 @@
 		F9FD79D7D762985851CC198E13A9D639 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		FA493E6B0606BB7AA80DFD35ED225845 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		FAB376E513ADEFCEF5DA4D9C3DE240D1 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
-		FBADFF240D38D36B40B1897366D99813 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBADFF240D38D36B40B1897366D99813 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,7 +359,6 @@
 				AB2BD8E841F36F10ADC206933E638BC7 /* Validation.swift */,
 				AA0953E4F6CBCBE1CEA00AFA03FAE7B7 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -439,7 +438,6 @@
 				CDB6A09C10FCB2ED0699FABD37DC9BF6 /* UILayoutSupport+Extensions.swift */,
 				9AFFF87F69C11C1F75D6E83C96596453 /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -656,6 +654,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 4BF4AB0E1078EEAECF25629436DC1158 /* Products */;

@@ -17,7 +17,9 @@ class AccountView: UIView {
     
     let accountNameLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont(name: AppFonts.avenirNextBold.rawValue, size: 20.0)
+        label.font = UIFont(name: AppFont.avenirNextBold.rawValue, size: 25.0)
+        label.numberOfLines = 0
+        label.lineBreakMode = .byWordWrapping
         label.textColor = UIColor.AppColours.darkGrey
         label.backgroundColor = UIColor.clear
         label.textAlignment = .left
@@ -27,7 +29,7 @@ class AccountView: UIView {
     
     let accountValueLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont(name: AppFonts.avenirNextMedium.rawValue, size: 22.0)
+        label.font = UIFont(name: AppFont.avenirNextMedium.rawValue, size: 22.0)
         label.textColor = UIColor.AppColours.darkGrey
         label.backgroundColor = UIColor.clear
         label.textAlignment = .left
@@ -37,7 +39,7 @@ class AccountView: UIView {
     
     let accountMoneyboxLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont(name: AppFonts.avenirNextMedium.rawValue, size: 22.0)
+        label.font = UIFont(name: AppFont.avenirNextMedium.rawValue, size: 22.0)
         label.textColor = UIColor.AppColours.darkGrey
         label.backgroundColor = UIColor.clear
         label.textAlignment = .left
@@ -48,7 +50,7 @@ class AccountView: UIView {
     private lazy var stackView: UIStackView = { [unowned self] in
         let stackView = UIStackView(arrangedSubviews: [self.accountNameLabel, self.accountValueLabel, self.accountMoneyboxLabel])
         stackView.axis = .vertical
-        stackView.distribution = .fillEqually
+        stackView.distribution = .fillProportionally
         stackView.alignment = .leading
         stackView.spacing = 0
         return stackView
@@ -56,7 +58,7 @@ class AccountView: UIView {
     
     let addMoneyButton: UIButton = {
         let button = UIButton(type: .system)
-        button.titleLabel?.font = UIFont(name: AppFonts.avenirNextMedium.rawValue, size: 30.0)
+        button.titleLabel?.font = UIFont(name: AppFont.avenirNextMedium.rawValue, size: 30.0)
         button.setTitle(Text.button.rawValue, for: .normal)
         button.setTitleColor(UIColor.AppColours.white, for: .normal)
         button.layer.borderColor = UIColor.AppColours.white.cgColor

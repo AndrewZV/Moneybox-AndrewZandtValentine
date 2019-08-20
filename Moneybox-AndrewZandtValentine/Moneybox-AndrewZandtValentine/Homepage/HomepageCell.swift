@@ -21,9 +21,9 @@ class HomepageCell: UITableViewCell {
     
     var account: Account? {
         didSet {
-            backView.backgroundColor = colour //CHANGE
+            backView.backgroundColor = colour 
             accountNameLabel.text = account?.name
-            let value = String(format: "Plan Value: £%.2f", account!.value) //ADD GUARD STATEMENTS HERE **********
+            let value = String(format: "Plan Value: £%.2f", account!.value) 
             accountValueLabel.text = value
             let moneybox = String(format: "Moneybox: £%.2f", account!.moneybox)
             accountMoneyboxLabel.text = moneybox
@@ -36,11 +36,6 @@ class HomepageCell: UITableViewCell {
     unowned var accountNameLabel: UILabel { return homepageCellView.accountNameLabel }
     unowned var accountValueLabel: UILabel { return homepageCellView.accountValueLabel }
     unowned var accountMoneyboxLabel: UILabel { return homepageCellView.accountMoneyboxLabel }
-    
-    // MARK: IBActions
-    @objc private func accountButtonPressed() {
-        print("Press!")
-    }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
